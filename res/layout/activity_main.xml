@@ -1,0 +1,363 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    android:orientation="vertical"
+    android:background="#888888"
+    tools:context="com.example.hfh5demo.MainActivity" >
+	
+   
+        
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1.0"
+         android:orientation="vertical"
+         >
+        <ScrollView 
+	        android:id="@+id/h5_btn_svgroup"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#11220022"
+	        >  
+	        
+            
+            
+	        <LinearLayout 
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:padding="6dp"
+	            android:orientation="vertical"
+	            >
+	            
+	            <LinearLayout 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="6dp"
+	                android:orientation="horizontal"
+	                >
+	                
+	                <TextView 
+	                    android:layout_width="100dp"
+	                    android:layout_height="wrap_content"
+	                    android:singleLine="true"
+	                    android:gravity="right"
+	                    android:autoLink="all"
+	                    android:textStyle="italic"
+	                    android:text="@string/mch_id"
+	                    />
+	                
+	                <EditText 
+	                    android:id="@+id/et_mch_id"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1.0"
+	                    android:singleLine="true"
+	                    android:text="EEJ9TKS1V0VZD72"
+	                    android:background="@null"
+	                    />
+	                
+	            </LinearLayout>
+	            
+	            <include layout="@drawable/dy_line" />
+	            
+	             <LinearLayout 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="6dp"
+	                android:orientation="horizontal"
+	                >
+	                
+	                
+	                <TextView 
+	                    android:layout_width="100dp"
+	                    android:layout_height="wrap_content"
+	                    android:singleLine="true"
+	                    android:gravity="right"
+	                    android:autoLink="all"
+	                    android:textStyle="italic"
+	                    android:text="@string/key"
+	                    />
+	                
+	                <EditText 
+	                    android:id="@+id/et_key"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@null"
+	                    android:singleLine="true"
+	                    android:text="20561a19m721t52"
+	                    android:layout_weight="1.0"
+	                    />
+	                
+	            </LinearLayout>
+	            
+	             <include layout="@drawable/dy_line" />
+	            
+	             <LinearLayout 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="6dp"
+	                android:orientation="horizontal"
+	                >
+	                
+	                
+	                <TextView 
+	                    android:layout_width="100dp"
+	                    android:singleLine="true"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    android:autoLink="all"
+	                    android:textStyle="italic"
+	                    android:text="@string/app_id"
+	                    />
+	                
+	                <EditText 
+	                    android:id="@+id/et_app_id"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@null"
+	                    android:singleLine="true"
+	                    android:text="201709012"
+	                    android:layout_weight="1.0"
+	                    />
+	                
+	            </LinearLayout>
+	            
+	             <include layout="@drawable/dy_line" />
+	             
+	             
+	             
+	             <LinearLayout 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="6dp"
+	                android:orientation="horizontal"
+	                >
+	                
+	                
+	                <TextView 
+	                    android:layout_width="100dp"
+	                    android:layout_height="wrap_content"
+	                    android:singleLine="true"
+	                    android:gravity="right"
+	                    android:autoLink="all"
+	                    android:textStyle="italic"
+	                    android:text="@string/api_host"
+	                    />
+	                
+	                <EditText 
+	                    android:id="@+id/et_api_host"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@null"
+	                    android:singleLine="true"
+	                    android:text="http://test.pay.yunbee.cn:8080"
+	                    android:layout_weight="1.0"
+	                    />
+	                
+	            </LinearLayout>
+	            
+	             <include layout="@drawable/dy_line" />
+	            
+	             <LinearLayout 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:padding="6dp"
+	                android:gravity="center_vertical"
+	                android:orientation="horizontal"
+	                >
+	                
+	                
+	                <TextView 
+	                    android:layout_width="100dp"
+	                    android:layout_height="wrap_content"
+	                    android:singleLine="true"
+	                    android:gravity="right"
+	                    android:autoLink="all"
+	                    android:textStyle="italic"
+	                    android:text="@string/notify_url"
+	                    />
+	                
+	                <EditText 
+	                    android:id="@+id/et_notify_url"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@null"
+	                    android:singleLine="false"
+	                    android:text="http://api.onlinegame.quhuogo.com/Callback/unifiedorder.ashx"
+	                    android:layout_weight="1.0"
+	                    />
+	                
+	            </LinearLayout>
+	            
+	             <include layout="@drawable/dy_line" />
+	            
+	            <TextView 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:textColor="#ffaaaa"
+	                android:text="---API接口---"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_api_wechat"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onApiWechatPay"
+	                android:text="微信支付(API)"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_api_alipay"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onApiAlipayPay"
+	                android:text="支付宝支付(API)"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_api_wapCashier"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onApiWapCashierPay"
+	                android:text="唤起WAP收银台支付(API)"
+	                />
+	            
+	            <TextView 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:textColor="#ffaaaa"
+	                android:layout_marginTop="16dp"
+	                android:text="---SDK接口---"
+	                />
+	            
+	            
+	            <Button 
+	                android:id="@+id/btn_sdk_wechat"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onSdkWechatPay"
+	                android:text="微信支付(SDK)"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_sdk_alipay"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onSdkAlipayPay"
+	                android:text="支付宝支付(SDK)"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_sdk_wapCashier"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onSdkWapCashierPay"
+	                android:text="唤起WAP收银台支付(SDK)"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_sdk_protoCashier"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onSdkProtoCashierPay"
+	                android:text="唤起原生收银台支付(SDK)"
+	                />
+	            
+	            <Button 
+	                android:id="@+id/btn_clear"
+	               	style="@style/dyBtBase"
+	               	android:layout_width="@dimen/dy_defaut_bt_width"
+        			android:layout_height="@dimen/dy_defaut_bt_hight"
+        			android:onClick="onClearLog"
+        			android:textColor="#ff222222"
+	                android:text="---clear---"
+	                />
+	            
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="16dp"
+	                android:text="好付WAP支付DEMO，负责人：雷柯斌、刘开相（简称：老雷、老刘）"
+	                android:textColor="#514311"
+	                android:textSize="18sp"
+	                android:textStyle="italic|bold"
+	                />
+	            
+	        </LinearLayout>
+	        
+	        
+            
+        </ScrollView>
+        
+        
+        
+        
+      </LinearLayout>
+      <LinearLayout 
+          android:id="@+id/id_downscroll"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="#11220022"
+          android:layout_marginTop="1dp"
+          android:layout_marginBottom="1dp"
+          android:gravity="center"
+          >
+        <include layout="@drawable/dy_margin" />
+        <include layout="@drawable/dy_small_line" />
+        <include layout="@drawable/dy_margin" />
+     	<include layout="@drawable/dy_small_line" />
+     	<include layout="@drawable/dy_margin" />
+     	<include layout="@drawable/dy_small_line" />
+     	<include layout="@drawable/dy_margin" />
+      </LinearLayout>
+        
+    <FrameLayout
+       	 android:id="@+id/id_log_lay"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1.0"
+         android:orientation="vertical"
+         android:background="#aaaaaaaa"
+         >
+        
+        <ScrollView 
+	        android:id="@+id/h5_tv_svgroup"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        >  
+	        <TextView
+	            android:id="@+id/tv_info"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            />
+        </ScrollView>
+        
+        <TextView
+            android:id="@+id/tv_log"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:focusable="true"
+	        android:textStyle="italic"
+	        android:textSize="36sp"
+	        android:hint="log区域"
+            />
+      </FrameLayout>
+
+</LinearLayout>

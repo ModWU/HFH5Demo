@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E46C62"
+        tools:context=".WebViewActivity" >
+
+        <TextView
+            android:id="@+id/webview_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_toRightOf="@+id/webview_back"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="典游H5支付"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/webview_back"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@+id/webview_bar"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:cropToPadding="false"
+            android:onClick="performBack"
+            android:padding="10dp"
+            android:src="@drawable/dian_h5_back" />
+
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/id_webview_lay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+        >
+        
+    </LinearLayout>
+
+</LinearLayout>

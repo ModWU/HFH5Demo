@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">好付Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mch_id"><u>mch_id</u>： </string>
+    <string name="key"><u>key</u>： </string>
+    <string name="app_id"><u>app_id</u>： </string>
+    <string name="notify_url"><u>notify_url</u>： </string>
+    <string name="api_host"><u>api_host</u>： </string>
+</resources>
